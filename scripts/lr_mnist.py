@@ -112,8 +112,8 @@ else:
     device = torch.device('cpu')
 
 # Load the MNIST dataset
-train_dataset = MNIST(root='./data', train=True, download=True, transform=ToTensor())
-test_dataset = MNIST(root='./data', train=False, download=True, transform=ToTensor())
+train_dataset = MNIST(root='../data', train=True, download=True, transform=ToTensor())
+test_dataset = MNIST(root='../data', train=False, download=True, transform=ToTensor())
 
 # Create data loaders for the training and testing datasets
 train_loader = DataLoader(dataset=train_dataset, batch_size=256, shuffle=True, pin_memory=True, num_workers=4)

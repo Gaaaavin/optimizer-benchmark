@@ -127,8 +127,8 @@ transform = transforms.Compose(
      transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
 
 # Load the MNIST dataset
-train_dataset = CIFAR10(root='./data', train=True, download=True, transform=transform)
-test_dataset = CIFAR10(root='./data', train=False, download=True, transform=transform)
+train_dataset = CIFAR10(root='../data', train=True, download=True, transform=transform)
+test_dataset = CIFAR10(root='../data', train=False, download=True, transform=transform)
 
 # Create data loaders for the training and testing datasets
 train_loader = DataLoader(dataset=train_dataset, batch_size=100, shuffle=True, pin_memory=True, num_workers=2)
