@@ -157,7 +157,7 @@ plt.title("Training loss")
 plt.xlabel("Epoch")
 plt.ylabel("Loss")
 plt.xticks(np.arange(EPOCHS)[::2])
-plt.savefig("results/lr_mnist_train_loss.pdf")
+plt.savefig("../results/lr_mnist_train_loss.pdf")
 plt.close()
 
 
@@ -171,6 +171,6 @@ plt.title("Training loss")
 plt.xlabel("Epoch")
 plt.ylabel("Loss")
 plt.xticks(np.arange(EPOCHS)[::2])
-plt.savefig("results/lr_mnist_val_loss.pdf")
+plt.savefig("../results/lr_mnist_val_loss.pdf")
 
 print(accuracy)
