@@ -158,7 +158,7 @@ plt.title("Training loss")
 plt.xlabel("Epoch")
 plt.ylabel("Loss")
 plt.xticks(np.arange(EPOCHS)[::5])
-plt.savefig("lr_cifar10_train_loss.pdf")
+plt.savefig("results/lr_cifar10_train_loss.pdf")
 plt.close()
 
 
@@ -172,6 +172,6 @@ plt.title("Training loss")
 plt.xlabel("Epoch")
 plt.ylabel("Loss")
 plt.xticks(np.arange(EPOCHS)[::5])
-plt.savefig("lr_cifar10_val_loss.pdf")
+plt.savefig("results/lr_cifar10_val_loss.pdf")
 
 print(accuracy)
