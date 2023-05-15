@@ -1,5 +1,9 @@
 # Project specific ignores
 data/
+results/
+
+# MacOS
+.DS_Store
 
 
 # Byte-compiled / optimized / DLL files
